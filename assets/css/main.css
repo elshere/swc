@@ -842,6 +842,14 @@ h6 {
     height: auto;
   }
   
+  @media (max-width: 768px) {
+    .about .col-lg-5 {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+  }
+  
 
 /*  */
 
@@ -969,6 +977,11 @@ h6 {
   opacity: 1; /* Menjadi terlihat */
 }
 
+@media screen and (max-width: 768px) {
+  .card-body {
+    text-align: left;
+  }
+}
 
 /*--------------------------------------------------------------
 # Reasons Section
@@ -1335,5 +1348,44 @@ h6 {
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+/* REGISTER */
+
+.index-page .section-register {
+  background-color: #4A90E2 !important;
+}
+
+.section-register {
+  width: 100vw;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section-register {
+  padding: 0;
+  margin: 0;
+}
+
+
+.section-register h2 {
+  color: black !important; /* Pastikan warna kontras */
+  font-size: 30px; /* Sesuaikan ukuran */
+  font-weight: bold; /* Tebalkan agar lebih terlihat */
+  margin-top: 40px;
+}
+
+.section-register {
+  padding-top: 50px; /* Menambah jarak dari atas */
+}
+
+.register {
+  width: 300px;
+  height: auto;
+  margin-top: 70px;
+}
+
+.section-register p {
+  margin-bottom: 10px;
 }
 
