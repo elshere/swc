@@ -1142,7 +1142,7 @@ h6 {
 .col-xl-3:nth-child(1) .judge { border-color: #FFC247; } /* Kuning */
 .col-xl-3:nth-child(2) .judge { border-color: #4472C4; } /* Biru */
 .col-xl-3:nth-child(3) .judge { border-color: #E5823E; } /* Oranye */
-.col-xl-3:nth-child(4) .judge { border-color: #8CC63E; } /* Hijau */
+
 
 /* Pastikan gambar memiliki ukuran yang sama */
 .judge img {
@@ -1194,6 +1194,18 @@ h6 {
 .judge .social i {
   font-size: 16px;
 }
+
+.timeline .img {
+  margin-left: 10%;
+  max-width: 90%;
+}
+.timeline h2{
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 38px;
+}
+
 
 /*--------------------------------------------------------------
 # Timeline Section
