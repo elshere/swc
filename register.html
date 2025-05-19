@@ -4,16 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Startup World Cup </title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Startup World Cup</title>
+  <meta name="description" content="Startup World Cup event page by Stasion Malang. Join the biggest startup competition.">
+  <meta name="keywords" content="Startup World Cup, Stasion Malang, Pegasus Tech Ventures, entrepreneurship, startup competition">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;700&family=Poppins:wght@300;400;500;600;700&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,95 +22,102 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-  
 </head>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    setTimeout(() => {
-      document.querySelector(".card").classList.add("show");
-    }, 1500); // Delay 300ms sebelum muncul
-  });
-</script>
 
 <body class="index-page">
 
+  <!-- Header -->
   <header id="header" class="header fixed-top">
-      <div class="container position-relative d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
-          <img src="assets/img/stasion-logo.png" alt="stasion">
-          <img src="assets/img/swc-logo.png" alt="swc">
-          <img src="assets/img/newpegasus.png" alt="pegasus"> 
-        </a>
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/stasion-logo.png" alt="Stasion Logo" class="me-2" height="40">
+        <img src="assets/img/swc-logo.png" alt="SWC Logo" class="me-2" height="40">
+        <img src="assets/img/newpegasus.png" alt="Pegasus Logo" height="40">
+      </a>
 
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="member.html">Member</a></li>
-            <li><a href="#index.html">SWC</a></li>
-            <!-- <li><a href=".html">SWC</a></li> -->
-            <li>
-              <a href="#hero" class="btn btn-register me-3">Register</a>
-            </li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
-      </div>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="member.html">Member</a></li>
+          <li><a href="#index.html" class="active">SWC</a></li>
+          <li><a href="#hero" class="btn btn-register me-3">Register</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
     </div>
+    <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    .iframe-wrapper {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+    .iframe-wrapper iframe {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
   </header>
 
-  <main class="main">
-    <div class="container section-register">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-auto">
-          <img src="assets/img/regis.png" alt="Register" class="register">
-        </div>
-        <div class="col-auto">
-          <h2 class="fw-bold">Startup World Cup 2025 Application Form (Malang, Indonesia)</h2>
-          <p>Thank you for your interest in applying to Startup World Cup. <br>
-            Please fill out the application form below and good luck!</p>
-        </div>
-      </div>
-    </div>
-  
-  <div class="section-register">
-  <iframe
-  id="JotFormIFrame-250698391487473"
-  title="SWC 2025"
-  onload="window.parent.scrollTo(0,0)"
-  allowtransparency="true"
-  allow="geolocation; microphone; camera; fullscreen"
-  src="https://form.jotform.com/250698391487473"
-  frameborder="0"
-  style="min-width:100%;max-width:100%;height:539px;border:none;"
-  scrolling="no">
-</iframe>
-</div>
-<script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
-<script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-250698391487473']", "https://form.jotform.com/")</script>
+  <!-- Script to show card -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(() => {
+        const card = document.querySelector(".card");
+        if (card) card.classList.add("show");
+      }, 1500);
+    });
+  </script>
 
+  <!-- Event Embed Section -->
+  <div class="iframe-wrapper">
+    <iframe src="https://lu.ma/embed/event/evt-uhbxnVZXwFryBxH/simple"></iframe>
+  </div>
+  </main>
 
-
-<footer class="footer mt-0">
-    <div class="footer-menu">
+  <!-- Footer -->
+  <footer class="footer mt-0 text-center text-md-start">
+    <div class="container py-4">
+      <div class="footer-menu mb-3 text-center">
         <a href="#">Gallery</a>
         <span>|</span>
         <a href="#">Committee</a>
         <span>|</span>
         <a href="#">History</a>
-    </div>
-    <div class="footer-social">
-        <a href="https://www.instagram.com/stasionmalang/"><img src="assets/img/footer/instagram.png" alt="Instagram"></a>
-        <a href="https://www.youtube.com/channel/UCmKxLviwXiEljXqRHkr2Mdw"><img src="assets/img/footer/youtube.png" alt="YouTube"></a>
-        <a href="https://www.facebook.com/Stasion.Startup.Malang"><img src="assets/img/footer/facebook.png" alt="Facebook"></a>
-        <a href="https://api.whatsapp.com/send?phone=6285179850197"><img src="assets/img/footer/whatsapp.png" alt="WhatsApp"></a>
-    </div>
-    <div class="footer-info">
-        <p><strong>Legal Office : Indigo Space Malang</strong></p>
+      </div>
+      <div class="footer-social mb-3 text-center">
+        <a href="https://www.instagram.com/stasionmalang/"><img src="assets/img/footer/instagram.png" alt="Instagram" height="24"></a>
+        <a href="https://www.youtube.com/channel/UCmKxLviwXiEljXqRHkr2Mdw"><img src="assets/img/footer/youtube.png" alt="YouTube" height="24"></a>
+        <a href="https://www.facebook.com/Stasion.Startup.Malang"><img src="assets/img/footer/facebook.png" alt="Facebook" height="24"></a>
+        <a href="https://api.whatsapp.com/send?phone=6285179850197"><img src="assets/img/footer/whatsapp.png" alt="WhatsApp" height="24"></a>
+      </div>
+      <div class="footer-info text-center">
+        <p><strong>Legal Office:</strong> Indigo Space Malang</p>
         <p>Telkom Kayutangan, Jl. Jenderal Basuki Rahmat No.7-9, Kauman, Kec. Klojen, Kota Malang, Jawa Timur 65119</p>
-    </div>
-    <div class="footer-bottom">
+      </div>
+      <div class="footer-bottom text-center mt-3">
         <p>© 2011-2022 Komunitas Startup Malang. All Rights Reserved</p>
+      </div>
     </div>
   </footer>
-  
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
